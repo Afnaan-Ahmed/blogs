@@ -1,0 +1,134 @@
+
+/* This  */
+
+html {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+body {
+    font-size: 18px;
+    color: #e4e9fb;
+}
+
+main {
+    display: block;
+}
+::selection {
+    background-color: #ccd6f647;
+}
+
+.header-logo {
+    margin: 0;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+header button {
+    margin: 0;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+.menu {
+    right: 10%;
+}
+
+
+h1 {
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.blogs-container {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.blog-card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.478);
+    background-color: rgba(0, 0, 0, 0.04);
+}
+.blog-card-reversed {
+    flex-direction: row-reverse;
+}
+.blog-card img {
+    overflow: hidden;
+    max-width: 550px;
+    max-height: auto;
+}
+.blog-card-text {
+    max-width: 40%;
+}
+.blog-card-text button {
+    margin-top: 24px;
+}
+
+
+
+
+
+
+/* RESPONSIVE DESIGN */
+
+/* Default: 1920px layout */
+
+/* Laptops (1366px - 1536px) */
+@media (max-width: 1536px) {
+    /* Adjust widths, font sizes, and spacing */
+    body {
+        font-size: 16px;
+    }
+    .blog-card {
+        justify-content: start;
+        max-width: 400px;
+    }
+    .blog-card-text {
+        max-width: 100%;
+        padding: 10px;
+    }
+    h2 {
+        font-size: 26px;
+    }
+}
+  
+
+/* Tablets (Optional: 768px - 1024px) */
+@media (max-width: 1024px) {
+    /* Reduce padding, margins, and rearrange content */
+    
+
+}
+
+
+/* Mobiles (375px - 768px) */
+@media (max-width: 768px) {
+    /* Stack elements vertically, hide unnecessary elements */
+    
+}
+
+
+/* Mobiles (375px - 768px) */
+@media (max-width: 600px) {
+    /* Stack elements vertically, hide unnecessary elements */
+    
+
+  }
