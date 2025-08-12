@@ -75,6 +75,7 @@ h2 {
     overflow: hidden;
     max-width: 550px;
     max-height: 310px;
+    border-radius: 10px;
 }
 .blog-card-text {
     max-width: 40%;
